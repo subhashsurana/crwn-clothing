@@ -55,11 +55,6 @@ class SignUp extends React.Component {
         this.setState({[name]:value});
     };
 
-    // handleConfirmPasswordChange = event => {
-    //     const {value} = event.target;
-    //     this.setState({confirmPassword: value});
-    // };
-
     render() {
         const { displayName, email, password, confirmPassword } = this.state;
         return (
